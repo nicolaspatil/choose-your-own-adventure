@@ -13,6 +13,7 @@ body {
 .App {
   height: 100vh;
   background-color: #181818;
+  color: white;
   -webkit-transition: background-color 2s; /* For Safari 3.1 to 6.0 */
   transition: background-color 2s;
   padding: 0;
@@ -24,14 +25,35 @@ code {
     monospace;
 }
 
-prompt-wrapper {
+.header {
   display: flex;
-  flex-direction: column;
-  flex: auto;
+  flex-direction: row;
+  flex-basis: content;
+  justify-content: space-around;
+  align-items: center;
+  height:8vh;
 }
 
-choice-wrapper {
+.prompt-wrapper {
   display: flex;
   flex-direction: column;
   flex: auto;
+  padding: 4vh;
+}
+
+.prompt {
+  font-size: 2em;
+}
+
+.choice-wrapper {
+  display: flex;
+  flex-direction: column;
+  flex: auto;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.content-wrapper {
+  height: 90vh;
+  margin: 5vh;
 }
