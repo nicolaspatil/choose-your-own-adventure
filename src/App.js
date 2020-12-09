@@ -2,7 +2,6 @@ import { Component } from 'react';
 import './App.css';
 import { story } from "./data"
 import Button from '@material-ui/core/Button';
-import InstagramIcon from '@material-ui/icons/Instagram';
 
 class App extends Component{
 
